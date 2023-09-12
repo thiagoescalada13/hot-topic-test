@@ -45,11 +45,14 @@
   list-style: none;
 }
 .index .index_nav-bar .index_nav-bar_col nav ul li a {
+  height: 40px;
   font-family: "romance";
+  padding-top: 3px;
   color: white;
   text-decoration: none;
   border: 1px solid black;
   width: 100%;
+  font-size: 20px;
   display: block;
   justify-content: center;
   background-color: rgb(14, 44, 58);
@@ -84,7 +87,7 @@
   width: 25%;
 }
 .index .index_nav-bar2 .index_nav-bar2-col .inicio_nav-bar2 p {
-  font-size: 13px;
+  font-size: 16px;
   color: rgb(39, 86, 109);
 }
 .index .index_nav-bar2 .index_nav-bar2-col .inicio_nav-bar2 a {
@@ -97,7 +100,7 @@
 .index .index_nav-bar2 .index_nav-bar2-col .nav_nav-bar2 ul {
   padding: 0;
   display: flex;
-  gap: 25px;
+  gap: 35px;
   justify-content: center;
 }
 .index .index_nav-bar2 .index_nav-bar2-col .nav_nav-bar2 ul li {
@@ -106,7 +109,7 @@
 }
 .index .index_nav-bar2 .index_nav-bar2-col .nav_nav-bar2 ul li img {
   margin-top: 20px;
-  height: 25px;
+  height: 40px;
 }
 .index .index_nav-bar2 .index_nav-bar2-col .nav_nav-bar2 ul li a {
   font-family: "funia";
@@ -115,7 +118,7 @@
   padding-top: 2.5vh;
   display: block;
   color: white;
-  font-size: 29px;
+  font-size: 35px;
   text-shadow: 4px 1px 10px rgb(143, 7, 7);
 }
 .index .index_nav-bar2 .index_nav-bar2-col .nav_nav-bar2 ul li a:hover {
@@ -149,7 +152,7 @@
 .index .index_main .categorias-col .categorias-buscador p {
   margin-bottom: 2px;
   color: white;
-  font-size: 10px;
+  font-size: 14px;
 }
 .index .index_main .categorias-col .categorias-buscador .buscador-input {
   display: flex;
@@ -157,6 +160,7 @@
   gap: 4px;
 }
 .index .index_main .categorias-col .categorias-buscador .buscador-input input {
+  width: 17vw;
   padding-bottom: 4px;
   padding-left: 3px;
   height: 6vh;
@@ -173,10 +177,10 @@
 }
 .index .index_main .categorias-col .categorias-nav nav ul li {
   list-style: square;
-  font-size: 19px;
+  font-size: 25px;
   color: rgb(101, 150, 144);
   font-weight: bold;
-  height: 27px;
+  height: 5vh;
 }
 .index .index_main .categorias-col .categorias-nav nav ul li a {
   text-shadow: 1px 1px 5px black;
@@ -219,11 +223,11 @@
 }
 .index .index_main .index_trend .trend-products .trend-product-info a {
   padding-left: 4px;
-  font-size: 12px;
+  font-size: 16px;
 }
 .index .index_main .index_trend .trend-products .trend-product-info p {
   padding-left: 4px;
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
   color: white;
 }
