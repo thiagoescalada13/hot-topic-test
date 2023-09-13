@@ -210,6 +210,7 @@
                             color: rgb(101, 150, 144);
                             font-weight: bold;
                             height: 5vh;
+                            transition: transform 0.3s;
 .categorias-nav-active {
     color: rgb(172, 5, 5);
     font-size: 29px;
@@ -223,13 +224,18 @@
                                 font-family: sans-serif;
                                 text-decoration: underline;
                                 color: white;
+                                
                             }
 
                             a:hover {
+
                                 color: rgb(105, 3, 3);
                                 font-size: 23px;
-                                text-shadow: 1px 1px 3px rgb(107, 7, 121);
+                                text-shadow: 1px 1px 3px rgb(0, 0, 0);
                             }
+                        }
+                        li:hover{
+                            transform: scale(1.2) translate(30px);
                         }
                     }
                 }
