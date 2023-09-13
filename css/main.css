@@ -383,6 +383,7 @@
   width: 55%;
   height: 94%;
   box-shadow: 1px 1px 20px 7px black;
+  background-color: rgb(14, 44, 58);
 }
 .index .index_main .index_trend .trend-banner img {
   border: 1px solid rgb(0, 0, 0);
@@ -392,19 +393,22 @@
 .index .index_main .index_trend .trend-products {
   display: flex;
   flex-wrap: wrap;
+  padding: 15px 0px;
+  gap: 10px;
 }
 .index .index_main .index_trend .trend-products .trend-product-info {
   flex-direction: column;
-  width: 25%;
+  width: 23.9%;
   height: 44vh;
   background-color: black;
-  border: 1px solid rgb(139, 6, 6);
+  border: 1px solid rgb(255, 255, 255);
   display: flex;
+  box-shadow: 1px 1px 4px red;
 }
 .index .index_main .index_trend .trend-products .trend-product-info img {
-  width: 95%;
+  margin-top: 6px;
+  width: 12vw;
   border: 1px solid red;
-  margin-top: 5px;
 }
 .index .index_main .index_trend .trend-products .trend-product-info a {
   padding-left: 4px;
@@ -416,6 +420,9 @@
   margin: 0;
   color: white;
 }
+.index .index_main .index_trend .trend-products .trend-product-info:hover {
+  box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+}
 .index .index_main .index_aside {
   padding-top: 20px;
   justify-content: center;
@@ -425,6 +432,7 @@
   height: 94.8vh;
 }
 .index .index_main .index_aside img {
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
   width: 8.5vw;
   border: 1px solid white;
   height: 20%;
