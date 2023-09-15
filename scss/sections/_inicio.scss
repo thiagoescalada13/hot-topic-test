@@ -1,25 +1,76 @@
 .index_main {
 .index_trend {
-    .trend-products {
+    .trend-inicio{
+        flex-wrap: nowrap;
+       gap: 15px;
+        border-top: 1px solid red;
+        height: 90%;
+        background-color: black;
+        display: flex ;
+        padding-top: 1.5rem;
         
         .slider-trend {
             display: flex;
-            margin-left: 10px;
-            width: 34vw;
+            margin-left: 20px;
+            width: 36vw;
             height: 80vh;
-            border: 1px solid black;
-            background-color: black;
-            overflow: hidden;
+            border: 1px solid rgb(54, 112, 119);
+            background-color: $secondColor;
+            overflow:hidden;
             img {
-                width: 100vw;
+                width: 100%;
                 position: relative;
-                animation: slide 20s infinite ;
+                animation: slide 20s infinite alternate ;
+            }
+        }
+        .left-trend {
+            width: 40%;
+                .left-trend-title {
+                    font-family: 'funia'; 
+                   
+                    text-align: left;            
+                    font-size: 50px;
+                    
+                    margin-bottom: 0;
+                    text-decoration: none;
+                    color: rgb(57, 94, 100);
+                    text-shadow: 1px 1px 5px rgb(28, 92, 76);
+                }
+            p {
+                
+                color: rgb(18, 71, 83);
+                text-decoration: underline;
+                
+            }
+            .left-trend-link {
+                flex-direction: row;
+                gap: 5px;
+                a{
+                    padding-top: 2rem;
+                    color: rgb(255, 0, 0);
+                    font-family: 'blaccs';
+                    text-decoration: none;
+                    font-size: 40px;
+                    text-align: center;
+                }
+                a:hover {
+                    text-shadow: 1px 1px 5px red;
+                }
+            }
+            .btn-home {
+                box-shadow: 0px 1px 10px 1px red;
+                position: relative;
+                left: 140px;
+                top: 50px;
+                width: 10vw;
             }
         }
         @keyframes slide {
-            0% {right: 3.6vw;}
-50% {right: 40vw;}
-100% {right: 80vw;}       
+            0% {right: 0rem;}
+            
+            50% {right: 29vw;}
+
+100% {right                 : 58vw;}       
 }
     }
 }
