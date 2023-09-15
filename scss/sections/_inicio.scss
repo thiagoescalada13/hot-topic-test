@@ -1,0 +1,26 @@
+.index_main {
+.index_trend {
+    .trend-products {
+        
+        .slider-trend {
+            display: flex;
+            margin-left: 10px;
+            width: 34vw;
+            height: 80vh;
+            border: 1px solid black;
+            background-color: black;
+            overflow: hidden;
+            img {
+                width: 100vw;
+                position: relative;
+                animation: slide 20s infinite ;
+            }
+        }
+        @keyframes slide {
+            0% {right: 3.6vw;}
+50% {right: 40vw;}
+100% {right: 80vw;}       
+}
+    }
+}
+}

@@ -197,8 +197,6 @@
   src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
 }
 .main_pre-index {
-  width: 98.8vw;
-  height: 50vh;
   background-color: black;
 }
 .main_pre-index .pre-index_container .pre-index_row .pre-index_col {
@@ -243,8 +241,34 @@
   text-shadow: 1px 1px 10px rgb(255, 217, 0);
 }
 .main_pre-index .pre-index_container .pre-index_row .pre-index_col .copyright {
-  padding-top: 3vh;
+  padding-top: 3.7vh;
   font-size: 13px;
+}
+
+.index_main .index_trend .trend-products .slider-trend {
+  display: flex;
+  margin-left: 10px;
+  width: 34vw;
+  height: 80vh;
+  border: 1px solid black;
+  background-color: black;
+  overflow: hidden;
+}
+.index_main .index_trend .trend-products .slider-trend img {
+  width: 100vw;
+  position: relative;
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+  0% {
+    right: 3.6vw;
+  }
+  50% {
+    right: 40vw;
+  }
+  100% {
+    right: 80vw;
+  }
 }
 
 @font-face {

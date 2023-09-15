@@ -1,11 +1,12 @@
 @import '../fonts';
 
 .main_pre-index {
-    width: 98.8vw;
-    height: 50vh;
     background-color: black;
+ 
     .pre-index_container {
+        
         .pre-index_row {
+            
             .pre-index_col {
                 display: flex;
                 flex-direction: column;
@@ -42,7 +43,7 @@
                     text-shadow: 1px 1px 10px rgb(255, 217, 0);
                 }
                 .copyright {
-                    padding-top: 3vh;
+                    padding-top: 3.7vh;
                     font-size: 13px;
                 }
             }
