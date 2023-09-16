@@ -1,6 +1,7 @@
 @import './sections/productos';
 @import './sections/index.scss';
 @import './sections/inicio';
+@import './sections/registrarse';
 
 @import './variables/colores';
 @import'./fonts';
@@ -208,7 +209,7 @@
 
                         li {
                             list-style: square;
-                            font-size: 20px;
+                            font-size: 25px;
                             color: rgb(101, 150, 144);
                             font-weight: bold;
                             height: 5vh;
@@ -352,12 +353,15 @@ background-color: black;
 
         .footer-col {
             display: flex;
-            gap: 45vw;
+            gap: 51vw;
 
             .footer-text-left {
                 a {
                     text-decoration: none;
                     color: rgb(60, 140, 177);
+                }
+                a:hover {
+                    color: rgb(80, 184, 233);
                 }
             }
 
@@ -365,6 +369,9 @@ background-color: black;
                 a {
                     text-decoration: none;
                     color: rgb(26, 63, 80);
+                }
+                a:hover {
+                    color: rgb(45, 113, 145);
                 }
             }
         }

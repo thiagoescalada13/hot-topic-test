@@ -386,6 +386,114 @@
   font-family: "korn";
   src: url(../fonts/KORN.TTF);
 }
+.main_registrarse {
+  background-color: black;
+}
+.main_registrarse .registrarse_container .registrarse_row {
+  padding: 0px 20vw;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  height: 100vh;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: red;
+  border-bottom: 1px solid red;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner h2 {
+  font-size: 50px;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left {
+  width: 10vw;
+  height: 60vh;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 0px;
+  background-color: red;
+  text-align: center;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left a {
+  font-size: 14px;
+  font-family: "blotter";
+  color: black;
+  text-shadow: 1px 1px 2px rgb(255, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-image: url(https://bettysgraphics.neocities.org/images/web%20graphics/BAN020.GIF);
+  background-size: 100%;
+  background-position: 60%;
+  background-repeat: no-repeat;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right {
+  width: 34.8vw;
+  height: 85vh;
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .right-titulo {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: orange;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right img {
+  width: 13vw;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .input {
+  margin: 0px 70px;
+  padding: 0px 30px;
+  border-left: 1px solid rgb(255, 136, 0);
+  border-right: 1px solid rgb(255, 136, 0);
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .input .input-form label {
+  color: red;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .input .input-form input {
+  border: 1px solid red;
+  height: 4vh;
+  padding: 5px;
+  box-shadow: 0px 1px 5px red;
+}
+
+@font-face {
+  font-family: "romance";
+  src: url(../fonts/RomanceA.ttf);
+}
+@font-face {
+  font-family: "blotter";
+  src: url(../fonts/Blotter-Regular.otf);
+}
+@font-face {
+  font-family: "funia";
+  src: url(../fonts/Funia.ttf);
+}
+@font-face {
+  font-family: "bubb";
+  src: url(../fonts/BUBBCB_.TTF);
+}
+@font-face {
+  font-family: "blaccs";
+  src: url(../fonts/BLACCS__.TTF);
+}
+@font-face {
+  font-family: "caos";
+  src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
+}
+@font-face {
+  font-family: "korn";
+  src: url(../fonts/KORN.TTF);
+}
 * {
   margin: 0;
   padding: 0;
@@ -549,7 +657,7 @@
 }
 .index .index_main .categorias-col .categorias-nav nav ul li {
   list-style: square;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(101, 150, 144);
   font-weight: bold;
   height: 5vh;
@@ -665,15 +773,21 @@
 }
 .index .index_footer .footer-col {
   display: flex;
-  gap: 45vw;
+  gap: 51vw;
 }
 .index .index_footer .footer-col .footer-text-left a {
   text-decoration: none;
   color: rgb(60, 140, 177);
 }
+.index .index_footer .footer-col .footer-text-left a:hover {
+  color: rgb(80, 184, 233);
+}
 .index .index_footer .footer-col .footer-text-right a {
   text-decoration: none;
   color: rgb(26, 63, 80);
+}
+.index .index_footer .footer-col .footer-text-right a:hover {
+  color: rgb(45, 113, 145);
 }
 .index .index_footer .footer-img {
   padding: 0;
