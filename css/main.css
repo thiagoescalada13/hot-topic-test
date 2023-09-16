@@ -247,7 +247,7 @@
   text-shadow: 0px 1px 1px rgb(255, 145, 0);
 }
 .main_pre-index .pre-index_container .pre-index_row .pre-index_col a:hover {
-  text-shadow: 1px 1px 10px rgb(255, 217, 0);
+  text-shadow: 1px 1px 10px rgb(206, 134, 67);
 }
 .main_pre-index .pre-index_container .pre-index_row .pre-index_col .copyright {
   padding-top: 3.7vh;
@@ -270,26 +270,48 @@
   display: flex;
   padding-top: 1.5rem;
 }
-.index_main .index_trend .trend-inicio .slider-trend {
+.index_main .index_trend .trend-banner {
+  background-color: black;
+}
+.index_main .index_trend .trend-banner .inicio-banner p {
+  margin: 0;
+}
+.index_main .index_trend .trend-banner .inicio-banner #banner-2 {
+  font-size: 3rem;
+  margin: 0px 15px;
+  font-family: "blaccs";
+  color: rgb(255, 128, 0);
+}
+.index_main .index_trend .trend-banner .inicio-banner #banner-bienvenido {
+  border-left: 1px solid red;
+  width: 100%;
+  color: rgb(114, 3, 3);
+  text-shadow: 1px 1px 4px rgb(255, 136, 0);
+  font-size: 3rem;
+  text-align: center;
+  font-family: "caos";
+}
+.index_main .index_trend .slider-trend {
   display: flex;
   margin-left: 20px;
   width: 36vw;
   height: 80vh;
   border: 1px solid rgb(54, 112, 119);
   background-color: rgb(10, 31, 41);
-  overflow: hidden;
   box-shadow: 0px 1px 10px rgb(26, 85, 87);
 }
-.index_main .index_trend .trend-inicio .slider-trend img {
+.index_main .index_trend .slider-trend .carousel {
   width: 100%;
-  position: relative;
-  animation: slide 10s infinite alternate;
-  animation-delay: 1s;
+  height: 10vh;
 }
-.index_main .index_trend .trend-inicio .left-trend {
+.index_main .index_trend .slider-trend .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 79.5vh;
+}
+.index_main .index_trend .left-trend {
   width: 40%;
 }
-.index_main .index_trend .trend-inicio .left-trend .left-trend-title {
+.index_main .index_trend .left-trend .left-trend-title {
   font-family: "funia";
   text-align: left;
   font-size: 50px;
@@ -298,15 +320,15 @@
   color: rgb(57, 94, 100);
   text-shadow: 1px 1px 5px rgb(28, 92, 76);
 }
-.index_main .index_trend .trend-inicio .left-trend p {
+.index_main .index_trend .left-trend p {
   color: rgb(18, 71, 83);
   text-decoration: underline;
 }
-.index_main .index_trend .trend-inicio .left-trend .left-trend-link {
+.index_main .index_trend .left-trend .left-trend-link {
   flex-direction: row;
   gap: 5px;
 }
-.index_main .index_trend .trend-inicio .left-trend .left-trend-link a {
+.index_main .index_trend .left-trend .left-trend-link a {
   padding-top: 2rem;
   color: rgb(255, 0, 0);
   font-family: "blaccs";
@@ -314,13 +336,13 @@
   font-size: 40px;
   text-align: center;
 }
-.index_main .index_trend .trend-inicio .left-trend .left-trend-link a:hover {
+.index_main .index_trend .left-trend .left-trend-link a:hover {
   text-shadow: 1px 1px 5px red;
 }
-.index_main .index_trend .trend-inicio .left-trend .btn-home {
+.index_main .index_trend .left-trend .btn-home {
   box-shadow: 0px 1px 10px 1px red;
   position: relative;
-  left: 140px;
+  left: 130px;
   top: 50px;
   width: 10vw;
 }
