@@ -261,6 +261,33 @@
                     height: 10.6vh;
                 }
             }
+            .lo_nuevo {
+                background-color: black;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                height: 5rem;
+                p {
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    font-family: 'korn';
+                    font-size: 6rem;
+                    color: white;
+                }
+                .nuevo_p2 {
+                    text-align: right;
+                    width: 75%;
+                    height: 100%;
+                    p{
+                        margin-bottom: 0;
+                        text-decoration: underline;
+                        font-size: 1rem;
+                        font-family: 'Times New Roman', Times, serif;
+                        padding-top: 0px;
+                        color: red;
+                    }
+                }
+            }
 
             .trend-products {
                 display: flex;

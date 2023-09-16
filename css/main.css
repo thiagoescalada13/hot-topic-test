@@ -22,6 +22,10 @@
   font-family: "caos";
   src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
 }
+@font-face {
+  font-family: "korn";
+  src: url(../fonts/KORN.TTF);
+}
 .index_main .index_trend-remeras {
   padding: 0;
   width: 75%;
@@ -196,8 +200,13 @@
   font-family: "caos";
   src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
 }
+@font-face {
+  font-family: "korn";
+  src: url(../fonts/KORN.TTF);
+}
 .main_pre-index {
   background-color: black;
+  height: 100vh;
 }
 .main_pre-index .pre-index_container .pre-index_row .pre-index_col {
   display: flex;
@@ -245,6 +254,13 @@
   font-size: 13px;
 }
 
+.index_main .index_trend .marquee {
+  height: 20px;
+  font-size: 14px;
+  border-top: 1px solid red;
+  background-color: black;
+  color: red;
+}
 .index_main .index_trend .trend-inicio {
   flex-wrap: nowrap;
   gap: 15px;
@@ -343,6 +359,10 @@
 @font-face {
   font-family: "caos";
   src: url(../fonts/Magnific\ Chaos\ Personal\ Use.ttf);
+}
+@font-face {
+  font-family: "korn";
+  src: url(../fonts/KORN.TTF);
 }
 * {
   margin: 0;
@@ -545,6 +565,33 @@
   border: 1px solid rgb(0, 0, 0);
   width: 100%;
   height: 10.6vh;
+}
+.index .index_main .index_trend .lo_nuevo {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+}
+.index .index_main .index_trend .lo_nuevo p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: "korn";
+  font-size: 6rem;
+  color: white;
+}
+.index .index_main .index_trend .lo_nuevo .nuevo_p2 {
+  text-align: right;
+  width: 75%;
+  height: 100%;
+}
+.index .index_main .index_trend .lo_nuevo .nuevo_p2 p {
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 0px;
+  color: red;
 }
 .index .index_main .index_trend .trend-products {
   display: flex;

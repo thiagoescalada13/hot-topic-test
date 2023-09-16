@@ -1,5 +1,12 @@
 .index_main {
     .index_trend {
+        .marquee {
+            height: 20px;
+            font-size: 14px;
+            border-top: 1px solid red;
+            background-color: black;
+            color: red;
+        }
         .trend-inicio {
             flex-wrap: nowrap;
             gap: 15px;
