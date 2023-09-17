@@ -26,6 +26,14 @@
   font-family: "korn";
   src: url(../fonts/KORN.TTF);
 }
+@font-face {
+  font-family: "london";
+  src: url(../fonts/OldLondon.ttf);
+}
+@font-face {
+  font-family: "deutsche";
+  src: url(../fonts/DeutscheZierschrift.ttf);
+}
 .index_main .index_trend-remeras {
   padding: 0;
   width: 75%;
@@ -203,6 +211,14 @@
 @font-face {
   font-family: "korn";
   src: url(../fonts/KORN.TTF);
+}
+@font-face {
+  font-family: "london";
+  src: url(../fonts/OldLondon.ttf);
+}
+@font-face {
+  font-family: "deutsche";
+  src: url(../fonts/DeutscheZierschrift.ttf);
 }
 .main_pre-index {
   background-color: black;
@@ -386,6 +402,14 @@
   font-family: "korn";
   src: url(../fonts/KORN.TTF);
 }
+@font-face {
+  font-family: "london";
+  src: url(../fonts/OldLondon.ttf);
+}
+@font-face {
+  font-family: "deutsche";
+  src: url(../fonts/DeutscheZierschrift.ttf);
+}
 .main_registrarse {
   background-color: black;
 }
@@ -402,14 +426,19 @@
 .main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   color: red;
   border-bottom: 1px solid red;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner h2 {
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner img {
+  box-shadow: 1px -1px 5px red;
+  margin-left: px;
+  width: 40vh;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col h2 {
   font-size: 50px;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left {
   width: 10vw;
   height: 60vh;
   margin: 10px;
@@ -418,81 +447,114 @@
   background-color: rgb(0, 0, 0);
   text-align: center;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left .left-banner {
-  background-color: rgb(252, 0, 0);
-  border: 0px solid rgb(255, 255, 255);
-  border-radius: 15px;
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-banner {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid red;
+  border-radius: 5px;
   margin-bottom: 10px;
   height: 4.3vh;
-  box-shadow: 3px 4px 10px rgb(4, 10, 87);
+  background-image: url(https://bettysgraphics.neocities.org/images/backgrounds/pattern%20468.gif);
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left .left-banner img {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-banner img {
   height: 5 vh;
-  border: 1px solid rgb(252, 0, 0);
   border-radius: 5px;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left .left-banner p {
-  background-color: rgb(252, 0, 0);
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-banner p {
   height: 4.3vh;
   border-radius: 5px;
-  padding-left: 5px;
-  font-family: "blotter";
-  font-size: 18px;
-  color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 10px rgb(240, 233, 233);
+  padding-right: 5px;
+  font-family: "deutsche";
+  width: 80%;
+  font-size: 20px;
+  color: rgb(243, 243, 243);
+  text-shadow: 1px 1px 3px rgb(255, 0, 0);
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left .left-botones {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-botones {
   margin-top: 10px;
+  text-align: center;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left .left-botones img {
-  width: 1.5vw;
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-botones img {
+  width: 2vw;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-left .left-botones a {
-  font-size: 15.5px;
-  font-family: "blotter";
-  color: rgb(255, 0, 0);
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-botones a {
+  font-size: 17px;
+  font-family: "london";
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
+  border-radius: 10px;
+  margin: 0;
+  width: 10.5vw;
+  height: 3.5vh;
   text-decoration: none;
   background-image: url(https://bettysgraphics.neocities.org/images/web%20graphics/button%2043.gif);
   background-size: 100%;
   padding: 0px 10px;
+  box-shadow: 0px 1px 5px red;
   background-repeat: no-repeat;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-botones a:hover {
+  color: red;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse-left .left-botones a:active {
+  font-size: 19px;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right {
   width: 34.8vw;
   height: 85vh;
   margin: 10px;
   background-color: rgb(0, 0, 0);
   border: 1px solid red;
+  box-shadow: 1px 1px 10px rgb(131, 1, 1);
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .right-titulo {
-  font-size: 20px;
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .right-titulo {
+  font-size: 30px;
   text-align: center;
   padding-top: 20px;
   color: orange;
+  font-family: "deutsche";
+  margin-bottom: 0;
+  text-shadow: 1px 1px 3px red;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right img {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .right-img {
+  width: 3vw;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right img {
   width: 13vw;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .input {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .input {
   margin: 0px 70px;
   padding: 0px 30px;
   border-left: 1px solid rgb(255, 136, 0);
   border-right: 1px solid rgb(255, 136, 0);
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .input .input-form label {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .input .input-form label {
   color: red;
   padding-left: 10px;
   margin-bottom: 0px;
   padding-top: 10px;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-right .input .input-form input {
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .input .input-form input {
   border: 1px solid red;
   height: 4vh;
   padding: 5px;
   box-shadow: 0px 1px 5px red;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .input button {
+  margin-top: 20px;
+  border: 1px solid red;
+  background-color: black;
+  padding: 5px;
+  color: red;
+  text-decoration: underline;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .input button:hover {
+  background-color: red;
+  color: black;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse-right .input button:active {
+  background-color: white;
+  color: red;
 }
 
 @font-face {
@@ -522,6 +584,14 @@
 @font-face {
   font-family: "korn";
   src: url(../fonts/KORN.TTF);
+}
+@font-face {
+  font-family: "london";
+  src: url(../fonts/OldLondon.ttf);
+}
+@font-face {
+  font-family: "deutsche";
+  src: url(../fonts/DeutscheZierschrift.ttf);
 }
 * {
   margin: 0;
