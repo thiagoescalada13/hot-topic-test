@@ -58,7 +58,7 @@
   border: 1px solid white;
   width: 20%;
   height: 85%;
-  background-color: rgb(10, 31, 41);
+  background-color: rgb(73, 2, 2);
 }
 .index_main .index_trend-remeras .trend-productos .trend-remeras-nav .dropdown {
   background-color: black;
@@ -278,6 +278,15 @@
   font-size: 13px;
 }
 
+.index_main .index_trend {
+  padding: 0;
+  width: 55%;
+  height: 100%;
+  box-shadow: 0px -3.3px 10px rgb(255, 2, 2);
+  background-color: rgb(73, 2, 2);
+  border-left: 1px solid rgb(255, 153, 0);
+  border-right: 1px solid rgb(255, 153, 0);
+}
 .index_main .index_trend .marquee {
   height: 20px;
   font-size: 14px;
@@ -289,8 +298,8 @@
   flex-wrap: nowrap;
   gap: 15px;
   border-top: 1px solid red;
-  height: 90%;
-  background-color: black;
+  height: 86%;
+  background-color: rgb(0, 0, 0);
   display: flex;
   padding-top: 1.5rem;
 }
@@ -304,7 +313,7 @@
   font-size: 3rem;
   margin: 0px 15px;
   font-family: "evanescence";
-  color: rgb(255, 128, 0);
+  color: rgb(255, 153, 0);
 }
 .index_main .index_trend .trend-banner .inicio-banner #banner-bienvenido {
   border-left: 1px solid red;
@@ -321,7 +330,7 @@
   width: 36vw;
   height: 80vh;
   border: 1px solid rgb(54, 112, 119);
-  background-color: rgb(10, 31, 41);
+  background-color: rgb(73, 2, 2);
   box-shadow: 0px 1px 10px rgb(26, 85, 87);
 }
 .index_main .index_trend .slider-trend .carousel {
@@ -368,7 +377,7 @@
   box-shadow: 0px 1px 10px 1px red;
   position: relative;
   left: 130px;
-  top: 50px;
+  top: 45px;
   width: 10vw;
 }
 @keyframes slide {
@@ -780,7 +789,7 @@
   height: 10vh;
 }
 .index .index_main {
-  background-color: rgb(70, 86, 94);
+  background-color: rgb(0, 0, 0);
   border-top: 1px solid white;
   height: 105vh;
 }
@@ -793,11 +802,15 @@
 .index .index_main .categorias-col .categorias-buscador {
   padding-left: 10px;
   height: 10.5vh;
-  background-color: rgb(10, 31, 41);
+  background-color: rgb(73, 2, 2);
+  border-bottom: 1px solid red;
 }
 .index .index_main .categorias-col .categorias-buscador p {
   margin-bottom: 2px;
-  color: white;
+  color: rgb(255, 153, 0);
+  text-shadow: 1px 1px 3px black;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
 .index .index_main .categorias-col .categorias-buscador .buscador-input {
@@ -810,78 +823,103 @@
   padding-bottom: 4px;
   padding-left: 3px;
   height: 6vh;
+  border: 1px solid black;
 }
 .index .index_main .categorias-col .categorias-buscador .buscador-input button {
   width: 2.7vw;
+  background-color: black;
+  color: red;
 }
 .index .index_main .categorias-col .categorias-nav {
-  background-color: rgb(70, 86, 94);
+  background-color: rgb(0, 0, 0);
   height: 100%;
 }
 .index .index_main .categorias-col .categorias-nav nav ul {
   padding-left: 2.5vw;
+  background-color: black;
+  padding-left: 0;
 }
 .index .index_main .categorias-col .categorias-nav nav ul li {
-  list-style: square;
-  font-size: 25px;
+  border-bottom: 1px solid red;
+  list-style: none;
+  font-size: 28px;
   color: rgb(101, 150, 144);
   font-weight: bold;
-  height: 5vh;
+  height: 5.5vh;
+  display: flex;
+  align-items: center;
   transition: transform 0.3s;
+  overflow: hidden;
+  background-color: black;
 }
 .index .index_main .categorias-col .categorias-nav nav ul li .categorias-nav-active {
-  color: rgb(172, 5, 5);
+  color: rgb(255, 0, 0);
+  text-shadow: 0px 2px 2px rgb(255, 153, 0);
   font-size: 25px;
 }
 .index .index_main .categorias-col .categorias-nav nav ul li .categorias-nav-active:hover {
-  font-size: 28px;
+  font-size: 27px;
 }
 .index .index_main .categorias-col .categorias-nav nav ul li a {
-  text-shadow: 1px 1px 5px black;
-  font-family: sans-serif;
-  text-decoration: underline;
-  color: white;
+  background-color: black;
+  display: block;
+  padding: 5px 5px;
+  height: 8vh;
+  width: 100vw;
+  border-bottom: 1px solid red;
+  text-shadow: 1px 1px 2px red;
+  font-family: "london";
+  text-decoration: none;
+  color: rgb(255, 153, 0);
 }
 .index .index_main .categorias-col .categorias-nav nav ul li a:hover {
-  color: rgb(105, 3, 3);
-  font-size: 23px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  background-color: red;
+  border: 1px solid black;
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
-.index .index_main .categorias-col .categorias-nav nav ul li:hover {
-  transform: scale(1.2) translate(30px);
+.index .index_main .categorias-col .categorias-nav nav ul li a:active {
+  color: red;
+  background-color: white;
 }
-.index .index_main .index_trend {
+.index .index_main .categorias-col .categorias-nav nav ul li img {
+  width: 2vw;
+  margin-left: 5px;
+}
+.index .index_main .lonuevo-trend {
   padding: 0;
   width: 55%;
-  height: 94%;
-  box-shadow: 1px 1px 20px 7px black;
-  background-color: rgb(10, 31, 41);
+  height: 96%;
+  box-shadow: 0px -3.3px 10px rgb(255, 2, 2);
+  border: 0px;
 }
-.index .index_main .index_trend .trend-banner img {
+.index .index_main .lonuevo-trend .trend-banner img {
   border: 1px solid rgb(0, 0, 0);
   width: 100%;
   height: 10.6vh;
 }
-.index .index_main .index_trend .lo_nuevo {
+.index .index_main .lonuevo-trend .lo_nuevo {
   background-color: black;
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 5rem;
+  width: 100%;
 }
-.index .index_main .index_trend .lo_nuevo p {
+.index .index_main .lonuevo-trend .lo_nuevo p {
   padding-left: 10px;
   padding-top: 10px;
   font-family: "korn";
   font-size: 5rem;
   color: white;
 }
-.index .index_main .index_trend .lo_nuevo .nuevo_p2 {
+.index .index_main .lonuevo-trend .lo_nuevo .nuevo_p2 {
   text-align: right;
   width: 75%;
   height: 100%;
 }
-.index .index_main .index_trend .lo_nuevo .nuevo_p2 p {
+.index .index_main .lonuevo-trend .lo_nuevo .nuevo_p2 p {
   margin-bottom: 0;
   text-decoration: underline;
   font-size: 1rem;
@@ -889,13 +927,13 @@
   padding-top: 0px;
   color: red;
 }
-.index .index_main .index_trend .trend-products {
+.index .index_main .lonuevo-trend .lonuevo-products {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
   justify-content: center;
 }
-.index .index_main .index_trend .trend-products .trend-product-info {
+.index .index_main .lonuevo-trend .lonuevo-products .trend-product-info {
   flex-direction: column;
   width: 25%;
   height: 44vh;
@@ -904,16 +942,16 @@
   display: flex;
   border: 1px solid rgb(255, 0, 0);
 }
-.index .index_main .index_trend .trend-products .trend-product-info img {
-  width: 14vw;
+.index .index_main .lonuevo-trend .lonuevo-products .trend-product-info img {
+  width: 13.7vw;
   height: 100%;
   border: 1px solid rgb(0, 0, 0);
 }
-.index .index_main .index_trend .trend-products .trend-product-info a {
+.index .index_main .lonuevo-trend .lonuevo-products .trend-product-info a {
   padding-left: 4px;
   font-size: 16px;
 }
-.index .index_main .index_trend .trend-products .trend-product-info p {
+.index .index_main .lonuevo-trend .lonuevo-products .trend-product-info p {
   padding-left: 4px;
   font-size: 16px;
   margin: 0;

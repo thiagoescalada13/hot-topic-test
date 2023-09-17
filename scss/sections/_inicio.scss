@@ -1,5 +1,12 @@
 .index_main {
     .index_trend {
+        padding: 0;
+        width: 55%;
+        height: 100%;
+        box-shadow: 0px -3.3px 10px  rgb(255, 2, 2);
+        background-color: $secondColor;
+        border-left: 1px solid $textColor;
+        border-right: 1px solid $textColor;
         .marquee {
             height: 20px;
             font-size: 14px;
@@ -12,8 +19,8 @@
             flex-wrap: nowrap;
             gap: 15px;
             border-top: 1px solid red;
-            height: 90%;
-            background-color: black;
+            height: 86%;
+            background-color: rgb(0, 0, 0);
             display: flex;
             padding-top: 1.5rem;
 
@@ -31,7 +38,7 @@
                     font-size: 3rem;
                     margin: 0px 15px;
                     font-family: 'evanescence';
-                    color: rgb(255, 128, 0);
+                    color: $textColor;
 
                 }
 
@@ -116,7 +123,7 @@ font-family: 'Times New Roman', Times, serif;
                 box-shadow: 0px 1px 10px 1px red;
                 position: relative;
                 left: 130px;
-                top: 50px;
+                top: 45px;
                 width: 10vw;
             }
         }

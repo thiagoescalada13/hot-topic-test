@@ -172,10 +172,13 @@
                 padding-left: 10px;
                 height: 10.5vh;
                 background-color: $secondColor;
-
+border-bottom: 1px solid red;
                 p {
                     margin-bottom: 2px;
-                    color: white;
+                    color:$textColor;
+                    text-shadow: 1px 1px 3px black;
+                    text-decoration: underline;
+                    font-family: 'Times New Roman', Times, serif;
                     font-size: 14px;
 
                 }
@@ -184,17 +187,19 @@
                     display: flex;
                     align-items: center;
                     gap: 4px;
-
+                    
                     input {
                         width: 17vw;
                         padding-bottom: 4px;
                         padding-left: 3px;
                         height: 6vh;
+                        border: 1px solid black;
                     }
 
                     button {
                         width: 2.7vw;
-
+background-color: black;
+color: red;
                     }
 
                 }
@@ -207,54 +212,77 @@
                 nav {
                     ul {
                         padding-left: 2.5vw;
-
+                        background-color: black;
+                        padding-left: 0;
                         li {
-                            list-style: square;
-                            font-size: 25px;
+                            border-bottom: 1px solid red;
+                            list-style: none;
+                            font-size: 28px;
                             color: rgb(101, 150, 144);
                             font-weight: bold;
-                            height: 5vh;
+                            height: 5.5vh;
+                           display: flex;
+                         
+                           align-items: center;
                             transition: transform 0.3s;
-
+                            overflow: hidden;
+                            background-color: black;
                             .categorias-nav-active {
-                                color: rgb(172, 5, 5);
+                                color: rgb(255, 0, 0);
+                                text-shadow: 0px 2px 2px $textColor;
                                 font-size: 25px;
                             }
 
                             .categorias-nav-active:hover {
-                                font-size: 28px;
+                                font-size: 27px;
+                                
                             }
 
                             a {
-                                text-shadow: 1px 1px 5px black;
-                                font-family: sans-serif;
-                                text-decoration: underline;
-                                color: white;
-
+                                background-color: black;
+                                display: block;
+                                padding: 5px 5px;
+                                height: 8vh;
+                                width: 100vw;
+                                border-bottom: 1px solid red;
+                                text-shadow: 1px 1px 2px red;
+                                font-family: 'london';
+                                text-decoration: none;
+                                color: $textColor;
                             }
 
                             a:hover {
 
-                                color: rgb(105, 3, 3);
-                                font-size: 23px;
+                                color: rgb(0, 0, 0);
+                                font-size: 25px;
+                                background-color: red;
+                                border: 1px solid black;
                                 text-shadow: 1px 1px 3px rgb(0, 0, 0);
+                            }
+                            a:active {
+                                color: red;
+                                background-color: white;
+                            }
+                            img {
+                                width: 2vw;
+                           
+                              margin-left: 5px;
                             }
                         }
 
-                        li:hover {
-                            transform: scale(1.2) translate(30px);
-                        }
+                        
                     }
                 }
             }
         }
 
-        .index_trend {
+        .lonuevo-trend{
             padding: 0;
             width: 55%;
-            height: 94%;
-            box-shadow: 1px 1px 20px 7px black;
-            background-color: $secondColor;
+            height: 96%;
+            box-shadow: 0px -3.3px 10px  rgb(255, 2, 2);
+         border: 0px;
+
 
             .trend-banner {
                 img {
@@ -269,7 +297,7 @@
                 align-items: center;
                 flex-direction: row;
                 height: 5rem;
-                
+                width: 100%;
                 p {
                     padding-left: 10px;
                     padding-top: 10px;
@@ -292,7 +320,7 @@
                 }
             }
 
-            .trend-products {
+            .lonuevo-products {
                 display: flex;
                 flex-wrap: wrap;
 background-color: black;
@@ -309,7 +337,7 @@ background-color: black;
 
                     img {
                        
-                        width: 14vw;
+                        width: 13.7vw;
                         height: 100%;
                         border: 1px solid rgb(0, 0, 0);
                        
