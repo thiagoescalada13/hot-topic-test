@@ -34,6 +34,10 @@
   font-family: "deutsche";
   src: url(../fonts/DeutscheZierschrift.ttf);
 }
+@font-face {
+  font-family: "evanescence";
+  src: url(../fonts/evanescent.ttf);
+}
 .index_main .index_trend-remeras {
   padding: 0;
   width: 75%;
@@ -219,6 +223,10 @@
 @font-face {
   font-family: "deutsche";
   src: url(../fonts/DeutscheZierschrift.ttf);
+}
+@font-face {
+  font-family: "evanescence";
+  src: url(../fonts/evanescent.ttf);
 }
 .main_pre-index {
   background-color: black;
@@ -410,6 +418,10 @@
   font-family: "deutsche";
   src: url(../fonts/DeutscheZierschrift.ttf);
 }
+@font-face {
+  font-family: "evanescence";
+  src: url(../fonts/evanescent.ttf);
+}
 .main_registrarse {
   background-color: black;
 }
@@ -430,10 +442,18 @@
   color: red;
   border-bottom: 1px solid red;
 }
-.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner img {
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner .registrarse-banner-left {
   box-shadow: 1px -1px 5px red;
-  margin-left: px;
-  width: 40vh;
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner .registrarse-banner-left p {
+  font-size: 75px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  font-family: "london";
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse_col h2 {
   font-size: 50px;
@@ -533,6 +553,8 @@
   padding-left: 10px;
   margin-bottom: 0px;
   padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse-right .input .input-form input {
   border: 1px solid red;
@@ -555,6 +577,45 @@
 .main_registrarse .registrarse_container .registrarse_row .registrarse-right .input button:active {
   background-color: white;
   color: red;
+}
+
+.main_registrarse .registrarse_container .registrarse_row {
+  padding: 0px 20vw;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  height: 100vh;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  color: red;
+  border-bottom: 1px solid red;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner .iniciosesion {
+  box-shadow: 1px -1px 5px red;
+  height: 10vh;
+  width: 24vw;
+  display: flex;
+  align-items: center;
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner .iniciosesion p {
+  font-size: 75px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  font-family: "london";
+}
+.main_registrarse .registrarse_container .registrarse_row .registrarse_col .flex-row .registrarse-right .input .buttondiv p {
+  text-align: end;
+  margin-bottom: 0;
+  color: rgb(87, 5, 5);
+  text-decoration: underline;
+  margin-top: 4vh;
+  padding-left: 10px;
 }
 
 @font-face {
@@ -592,6 +653,10 @@
 @font-face {
   font-family: "deutsche";
   src: url(../fonts/DeutscheZierschrift.ttf);
+}
+@font-face {
+  font-family: "evanescence";
+  src: url(../fonts/evanescent.ttf);
 }
 * {
   margin: 0;
