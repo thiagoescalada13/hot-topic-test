@@ -16,10 +16,12 @@
             background-color: black;
             display: flex;
             padding-top: 1.5rem;
+          
         }
 
         .trend-banner {
             background-color: black;
+            
             .inicio-banner {
                 p {
                     margin: 0;
@@ -27,7 +29,7 @@
                 #banner-2 {
                     font-size: 3rem;
                     margin: 0px 15px;
-                    font-family: 'blaccs';
+                    font-family: 'evanescence';
                     color: rgb(255, 128, 0);
                     
                 }
@@ -35,10 +37,11 @@
                     border-left: 1px solid red;
                     width: 100%;
                     color: rgb(114, 3, 3);
-                    text-shadow: 1px 1px 4px rgb(255, 136, 0);
-                    font-size: 3rem;
+                   
+
+                    font-size: 2.9rem;
                     text-align: center;
-                    font-family: 'caos';
+                    font-family: 'deutsche';
                 }
             }
         }
