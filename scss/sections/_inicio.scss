@@ -16,30 +16,32 @@
             background-color: black;
             display: flex;
             padding-top: 1.5rem;
-          
+
         }
 
         .trend-banner {
             background-color: black;
-            
+
             .inicio-banner {
                 p {
                     margin: 0;
                 }
+
                 #banner-2 {
                     font-size: 3rem;
                     margin: 0px 15px;
                     font-family: 'evanescence';
                     color: rgb(255, 128, 0);
-                    
+
                 }
+
                 #banner-bienvenido {
                     border-left: 1px solid red;
                     width: 100%;
                     color: rgb(114, 3, 3);
-                   
 
-                    font-size: 2.9rem;
+                    padding-top: 5px;
+                    font-size: 2.5rem;
                     text-align: center;
                     font-family: 'deutsche';
                 }
@@ -86,7 +88,7 @@
             }
 
             p {
-
+font-family: 'Times New Roman', Times, serif;
                 color: rgb(18, 71, 83);
                 text-decoration: underline;
 

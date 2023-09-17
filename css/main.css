@@ -310,7 +310,8 @@
   border-left: 1px solid red;
   width: 100%;
   color: rgb(114, 3, 3);
-  font-size: 2.9rem;
+  padding-top: 5px;
+  font-size: 2.5rem;
   text-align: center;
   font-family: "deutsche";
 }
@@ -344,6 +345,7 @@
   text-shadow: 1px 1px 5px rgb(28, 92, 76);
 }
 .index_main .index_trend .left-trend p {
+  font-family: "Times New Roman", Times, serif;
   color: rgb(18, 71, 83);
   text-decoration: underline;
 }
@@ -449,7 +451,7 @@
   align-items: center;
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner .registrarse-banner-left p {
-  font-size: 75px;
+  font-size: 69px;
   margin-bottom: 0px;
   padding-left: 10px;
   font-family: "london";
@@ -484,7 +486,7 @@
   padding-right: 5px;
   font-family: "deutsche";
   width: 80%;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(243, 243, 243);
   text-shadow: 1px 1px 3px rgb(255, 0, 0);
 }
@@ -527,7 +529,7 @@
   box-shadow: 1px 1px 10px rgb(131, 1, 1);
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse-right .right-titulo {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding-top: 20px;
   color: orange;
@@ -536,7 +538,8 @@
   text-shadow: 1px 1px 3px red;
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse-right .right-img {
-  width: 3vw;
+  margin: 0px 10px;
+  width: 1.3vw;
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse-right img {
   width: 13vw;
@@ -603,7 +606,7 @@
   align-items: center;
 }
 .main_registrarse .registrarse_container .registrarse_row .registrarse_col .registrarse-banner .iniciosesion p {
-  font-size: 75px;
+  font-size: 65px;
   margin-bottom: 0px;
   padding-left: 10px;
   font-family: "london";
@@ -870,7 +873,7 @@
   padding-left: 10px;
   padding-top: 10px;
   font-family: "korn";
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
 }
 .index .index_main .index_trend .lo_nuevo .nuevo_p2 {
