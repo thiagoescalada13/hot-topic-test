@@ -43,16 +43,17 @@
 
                         a {
                             height: 40px;
-                            font-family: 'romance';
-                            padding-top: 3px;
-                            color: white;
+                            font-family: 'mom';
+                            padding-top: px;
+                            text-shadow: 1px 1px 2px rgb(248, 0, 0);
+                            color: rgb(0, 0, 0);
                             text-decoration: none;
-                            border: 1px solid black;
+                            border: 1px solid rgb(0, 0, 0);
                             width: 100%;
                             font-size: 20px;
                             display: block;
                             justify-content: center;
-                            background-color: rgb(14, 44, 58);
+                            background-color: rgb(68, 1, 1)
                         }
 
                         a:hover {
@@ -71,14 +72,15 @@
             align-items: center;
             justify-content: center;
             border: 2px solid black;
+            border-top: 1px solid rgb(0, 0, 0);
             height: 6vh;
             text-align: center;
-            background-color: rgb(67, 111, 133);
+            background-color: rgb(35, 70, 68);
 
             a {
                 font-size: 18px;
                 font-family: 'blotter';
-                color: white;
+                color: black;
             }
 
             img {
@@ -98,11 +100,11 @@
 
                 p {
                     font-size: 16px;
-                    color: rgb(39, 86, 109);
+                    color: rgb(99, 65, 3);
                 }
 
                 a {
-                    color: rgb(39, 86, 109);
+                    color: rgb(165, 88, 1);
                 }
             }
 
@@ -229,8 +231,8 @@ color: red;
                             background-color: black;
                             .categorias-nav-active {
                                 color: rgb(255, 0, 0);
-                                text-shadow: 0px 2px 2px $textColor;
-                                font-size: 25px;
+                                text-shadow: 1px 1px 2px $textColor;
+                                font-size: 26px;
                             }
 
                             .categorias-nav-active:hover {
@@ -245,10 +247,10 @@ color: red;
                                 height: 8vh;
                                 width: 100vw;
                                 border-bottom: 1px solid red;
-                                text-shadow: 1px 1px 2px red;
-                                font-family: 'london';
+                                text-shadow: 1px 1px 1px rgb(124, 2, 2);
+                                font-family: 'Times New Roman', Times, serif;
                                 text-decoration: none;
-                                color: $textColor;
+                                color: red;
                             }
 
                             a:hover {
@@ -299,10 +301,11 @@ color: red;
                 height: 5rem;
                 width: 100%;
                 p {
-                    padding-left: 10px;
-                    padding-top: 10px;
-                    font-family: 'korn';
-                    font-size: 5rem;
+                    padding-left:1rem;
+                    padding-top: 13px;
+                    font-family: 'mom';
+                    font-size: 1.8rem;
+                  
                     color: white;
                 }
                 .nuevo_p2 {
@@ -312,6 +315,7 @@ color: red;
                     p{
                         margin-bottom: 0;
                         text-decoration: underline;
+                        text-align: end;
                         font-size: 1rem;
                         font-family: 'Times New Roman', Times, serif;
                         padding-top: 0px;
@@ -381,26 +385,27 @@ background-color: black;
         background-color: black;
 
         .footer-col {
+         
             display: flex;
-            gap: 51vw;
+            gap: 44vw;
 
             .footer-text-left {
                 a {
                     text-decoration: none;
-                    color: rgb(60, 140, 177);
+                    color: $textColor;
                 }
                 a:hover {
-                    color: rgb(80, 184, 233);
+                    color: rgb(167, 101, 3);
                 }
             }
 
             .footer-text-right {
                 a {
                     text-decoration: none;
-                    color: rgb(26, 63, 80);
+                    color: rgb(105, 43, 1);
                 }
                 a:hover {
-                    color: rgb(45, 113, 145);
+                    color: rgb(155, 11, 1);
                 }
             }
         }
@@ -416,7 +421,7 @@ background-color: black;
 
         .footer-copyright {
             height: 4vh;
-            color: rgb(36, 68, 90);
+            color: rgb(74, 74, 75);
             text-align: center
         }
     }
